@@ -32,7 +32,7 @@ deno run 1-2.ts  # Run Day 1, Part 2
 ## Progress Tracking
 
 - [x] Day 1
-- [ ] Day 2
+- [x] Day 2
 - [ ] Day 3
 - [ ] Day 4
 - [ ] Day 5
