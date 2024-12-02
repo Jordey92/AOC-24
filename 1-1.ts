@@ -17,16 +17,10 @@ listTwo.sort();
 
 function getDifference(input1: number[], input2: number[]) {
   if (!input1.length && !input2.length) return 0;
-
-  let sum: number = 0;
-
-  if (input2[0] > input1[0]) {
-    sum += input2[0] - input1[0];
-  } else {
-    sum += input1[0] - input2[0];
-  }
-
-  return sum + getDifference(input1.slice(1), input2.slice(1));
+  return (
+    Math.abs(input2[0] - input1[0]) +
+    getDifference(input1.slice(1), input2.slice(1))
+  );
 }
 
 const answer = getDifference(listOne, listTwo);
