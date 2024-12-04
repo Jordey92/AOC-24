@@ -1,4 +1,4 @@
-const initialInput = await Deno.readTextFile("./3-0.txt");
+const initialInput = await Deno.readTextFile("./input-3.txt");
 
 function getNumbersInRow(input: string): number {
   const nums: number[] = [];

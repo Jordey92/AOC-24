@@ -1,4 +1,4 @@
-import { initialInput } from "./1-0.ts";
+import { initialInput } from "./input-1.ts";
 
 const input = initialInput.split(/\s/g).filter(Boolean);
 

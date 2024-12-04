@@ -1,4 +1,4 @@
-import { initialInput } from "./2-0.ts";
+import { initialInput } from "./input-2.ts";
 
 const arr = initialInput
   .split(/\r?\n/)

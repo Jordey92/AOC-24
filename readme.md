@@ -7,14 +7,14 @@ This repository documents my learning process as I tackle each day's challenge, 
 
 ```
 ├── README.md
-├── 1-0.ts    # Day 1 input data
+├── input-1.ts    # Day 1 input data
 ├── 1-1.ts    # Day 1 Part 1 solution
 ├── 1-2.ts    # Day 1 Part 2 solution
 └── ...
 ```
 
 ## File Naming Convention
-- `{day}-0.ts`: Contains the input data for that day's puzzle
+- `input-{day}.[ts,txt]`: Contains the input data for that day's puzzle
 - `{day}-1.ts`: Solution for Part 1 of the day's puzzle
 - `{day}-2.ts`: Solution for Part 2 of the day's puzzle
 
